@@ -1,0 +1,76 @@
+.header {
+  background-image: url('../img/mt-2138-home-img-1.jpg');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+.logo {
+  display: block;
+  margin: 30px auto;
+}
+
+.nav_link {
+  display: none;
+}
+
+.hero {
+  background-image: url('../img/mt-2138-blank-img.png');
+  background-repeat: no-repeat;
+  background-size: 20% 100%;
+  padding: 5px 40px 15px;
+}
+.main_title {
+}
+.header_title {
+  font-size: x-large;
+}
+.header_title_bold {
+  font-weight: bold;
+}
+.hero_text {
+  color: #505050;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Сховане меню за замовчуванням */
+  width: 250px;
+  height: 100%;
+  background: #333;
+  padding-top: 60px; /* Простір для заголовка */
+  transition: left 0.3s ease;
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.nav-menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Показати меню, коли кнопка натиснута */
+.nav-open {
+  left: 0;
+}
