@@ -1,6 +1,7 @@
 import React from 'react';
 import CSS from './EventStats.module.css';
 import { Link } from 'react-router-dom';
+import gallerPhoto from '../../img/mt-2138-exhibitions-img-5.jpg';
 function EventStats() {
   return (
     <>
@@ -28,6 +29,9 @@ function EventStats() {
         <span className={CSS.stats_text}>Events a Year</span>
         <span>9999</span>
         <span className={CSS.stats_text}>Yearly Visitors</span>
+      </div>
+      <div>
+        <img src={gallerPhoto} className={CSS.gal_photo} alt="exhibitions" />
       </div>
     </>
   );
