@@ -5,3 +5,24 @@
   justify-content: center;
   align-items: center;
 }
+.artists_container div {
+  gap: 10px;
+}
+
+.artists_container {
+  background-color: #f7f7f7;
+  gap: 30px;
+}
+
+.artists_container h2 {
+  font-weight: bold;
+  font-size: 27px;
+  padding-top: 30px;
+}
+.artist_item h3 {
+  font-weight: bold;
+}
+
+.artist_item p {
+  color: #6d7e90;
+}

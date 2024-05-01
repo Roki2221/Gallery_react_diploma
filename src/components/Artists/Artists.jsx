@@ -8,25 +8,33 @@ function Artists() {
   return (
     <div className={CSS.artists_container}>
       <h2>Artists</h2>
-      <div>
+      <div className={CSS.artist_item}>
         <img src={art1} alt="" />
-        <h3>Isabelle Bellagio</h3>
-        <p>Abstract Art</p>
+        <div>
+          <h3>Isabelle Bellagio</h3>
+          <p>Abstract Art</p>
+        </div>
       </div>
-      <div>
+      <div className={CSS.artist_item}>
         <img src={art2} alt="" />
-        <h3>Mary Cameron</h3>
-        <p>Art Installation</p>
+        <div>
+          <h3>Mary Cameron</h3>
+          <p>Art Installation</p>
+        </div>
       </div>
-      <div>
+      <div className={CSS.artist_item}>
         <img src={art3} alt="" />
-        <h3>Alice Nixon</h3>
-        <p>NAture Photography</p>
+        <div>
+          <h3>Alice Nixon</h3>
+          <p>NAture Photography</p>
+        </div>
       </div>
       <div>
         <img src={art4} alt="" />
-        <h3>MArie Steady</h3>
-        <p>Modern Art</p>
+        <div className={CSS.artist_item}>
+          <h3>MArie Steady</h3>
+          <p>Modern Art</p>
+        </div>
       </div>
     </div>
   );
