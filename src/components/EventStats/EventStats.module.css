@@ -1,0 +1,30 @@
+.event_container {
+  padding: 40px 10px;
+  background-color: #f9f9f9;
+}
+
+.title_eventStats {
+  font-weight: bold;
+  font-size: 28px;
+  width: 200px;
+}
+
+.text_eventStats {
+  margin: 20px 0;
+}
+
+.button_eventStats {
+  background-color: #ededed;
+  display: block;
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.button_eventStats:hover {
+  background-color: #000000;
+  color: #ededed;
+  translate: 1;
+}
+
+.eventStats_container {
+}
