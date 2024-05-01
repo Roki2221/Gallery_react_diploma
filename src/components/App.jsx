@@ -6,7 +6,7 @@ import Blog from '../pages/Blog';
 import Contacts from '../pages/Contacts';
 import Events from '../pages/Events';
 import Home from '../pages/Home';
-import { Link, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 export const App = () => {
   return (
