@@ -6,7 +6,6 @@
 .title_eventStats {
   font-weight: bold;
   font-size: 28px;
-  width: 200px;
 }
 
 .text_eventStats {
@@ -15,16 +14,19 @@
 
 .button_eventStats {
   background-color: #ededed;
-  display: block;
   padding: 20px;
-  transition: 0.5s;
+  display: block;
+  width: fit-content;
+  transition: 0.4s;
+  font-weight: bold;
+
+  border-bottom: 2px solid black;
 }
 
 .button_eventStats:hover {
   background-color: #000000;
   color: #ededed;
-  translate: 1;
 }
 
-.eventStats_container {
+.number_container {
 }

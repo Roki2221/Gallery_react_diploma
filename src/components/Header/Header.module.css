@@ -1,13 +1,15 @@
 .header {
-  background-image: url('../img/mt-2138-home-img-1.jpg');
+  background-image: url('../../img/mt-2138-home-img-1.jpg');
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: center;
   margin-bottom: 30px;
+  padding-top: 20px;
 }
 .logo {
   display: block;
-  margin: 30px auto;
+  width: 200px;
+  margin: 0 auto 10px;
 }
 
 .nav_link {
@@ -15,7 +17,7 @@
 }
 
 .hero {
-  background-image: url('../img/mt-2138-blank-img.png');
+  background-image: url('../../img/mt-2138-blank-img.png');
   background-repeat: no-repeat;
   background-size: 20% 100%;
   padding: 5px 40px 15px;

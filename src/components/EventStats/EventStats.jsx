@@ -1,10 +1,10 @@
 import React from 'react';
 import CSS from './EventStats.module.css';
-
+import { Link } from 'react-router-dom';
 function EventStats() {
   return (
-    <div className="container">
-      <div className={CSS.event_container}>
+    <>
+      <div className={`${CSS.event_container} container`}>
         <h2 className={CSS.title_eventStats}>Events '16 in Review</h2>
         <p className={CSS.text_eventStats}>
           The real reason as to why we do not pick and choose or in any other
@@ -15,17 +15,21 @@ function EventStats() {
           In fact, over the course of a year we do host a range of personalized
           exhibits by the best modern artists, as a part of our events agenda.
         </p>
-        <button type="button" className={CSS.button_eventStats}>
+        <Link
+          style={{ textDecoration: 'none' }}
+          to="/events"
+          className={CSS.button_eventStats}
+        >
           past events
-        </button>
+        </Link>
       </div>
-      <div className={CSS.eventStats_container}>
-        <span>5586</span>
+      <div className={`${CSS.number_container} container`}>
+        <span className={CSS.stats_number}>5586</span>
         <span>Events a Year</span>
         <span>9999</span>
         <span>Yearly Visitors</span>
       </div>
-    </div>
+    </>
   );
 }
 
