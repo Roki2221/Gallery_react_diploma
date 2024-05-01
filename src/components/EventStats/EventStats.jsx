@@ -25,9 +25,9 @@ function EventStats() {
       </div>
       <div className={`${CSS.number_container} container`}>
         <span className={CSS.stats_number}>5586</span>
-        <span>Events a Year</span>
+        <span className={CSS.stats_text}>Events a Year</span>
         <span>9999</span>
-        <span>Yearly Visitors</span>
+        <span className={CSS.stats_text}>Yearly Visitors</span>
       </div>
     </>
   );

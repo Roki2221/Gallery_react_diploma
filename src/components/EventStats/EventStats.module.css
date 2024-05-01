@@ -1,6 +1,7 @@
 .event_container {
   padding: 40px 10px;
   background-color: #f9f9f9;
+  margin-bottom: 30px;
 }
 
 .title_eventStats {
@@ -19,7 +20,7 @@
   width: fit-content;
   transition: 0.4s;
   font-weight: bold;
-
+  color: #000;
   border-bottom: 2px solid black;
 }
 
@@ -29,4 +30,18 @@
 }
 
 .number_container {
+  height: 300px;
+  background-color: #222832;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 27px;
+}
+.stats_text {
+  font-size: 17px;
+  border-top: 2px solid white;
+  padding-top: 20px;
 }

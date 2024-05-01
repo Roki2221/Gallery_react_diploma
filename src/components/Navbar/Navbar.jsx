@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import CSS from './Navbar.module.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   const [menuOpen, SetMenuOpen] = useState(false);
@@ -18,26 +18,89 @@ function Navbar() {
         <span></span>
       </div>
       <ul className={menuOpen ? CSS.open : ''}>
-        <li>
-          <Link to="/">home</Link>
+        <li
+          onClick={() => {
+            SetMenuOpen(!menuOpen);
+          }}
+        >
+          <NavLink
+            className={({ isActive }) => (isActive ? CSS.active : '')}
+            to="/"
+          >
+            home
+          </NavLink>
         </li>
-        <li>
-          <Link to="about">about us</Link>
+        <li
+          onClick={() => {
+            SetMenuOpen(!menuOpen);
+          }}
+        >
+          <NavLink
+            className={({ isActive }) => (isActive ? CSS.active : '')}
+            to="about"
+          >
+            about us
+          </NavLink>
         </li>
-        <li>
-          <Link to="exhibitions">exhibitions</Link>
+        <li
+          onClick={() => {
+            SetMenuOpen(!menuOpen);
+          }}
+        >
+          <NavLink
+            className={({ isActive }) => (isActive ? CSS.active : '')}
+            to="exhibitions"
+          >
+            exhibitions
+          </NavLink>
         </li>
-        <li>
-          <Link to="events">events</Link>
+        <li
+          onClick={() => {
+            SetMenuOpen(!menuOpen);
+          }}
+        >
+          <NavLink
+            className={({ isActive }) => (isActive ? CSS.active : '')}
+            to="events"
+          >
+            events
+          </NavLink>
         </li>
-        <li>
-          <Link to="gallery">gallery</Link>
+        <li
+          onClick={() => {
+            SetMenuOpen(!menuOpen);
+          }}
+        >
+          <NavLink
+            className={({ isActive }) => (isActive ? CSS.active : '')}
+            to="gallery"
+          >
+            gallery
+          </NavLink>
         </li>
-        <li>
-          <Link to="blog">blog</Link>
+        <li
+          onClick={() => {
+            SetMenuOpen(!menuOpen);
+          }}
+        >
+          <NavLink
+            className={({ isActive }) => (isActive ? CSS.active : '')}
+            to="blog"
+          >
+            blog
+          </NavLink>
         </li>
-        <li>
-          <Link to="contacts">contacts</Link>
+        <li
+          onClick={() => {
+            SetMenuOpen(!menuOpen);
+          }}
+        >
+          <NavLink
+            className={({ isActive }) => (isActive ? CSS.active : '')}
+            to="contacts"
+          >
+            contacts
+          </NavLink>
         </li>
       </ul>
     </nav>

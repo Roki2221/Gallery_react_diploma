@@ -1,3 +1,7 @@
+.active {
+  background-color: rgb(247, 212, 13);
+  color: white;
+}
 .mobile_menu_button {
   margin: 0 auto;
   display: flex;
@@ -19,8 +23,19 @@
 
 .nav_link ul {
   display: none;
+  position: absolute;
+  border: 2px solid rgb(247, 212, 13);
+  width: 100%;
 }
 .nav_link .open {
   display: block;
-  position: absolute;
+}
+
+.nav_link li {
+  color: #000;
+  background-color: white;
+}
+.nav_link li a {
+  padding: 10px;
+  display: block;
 }
