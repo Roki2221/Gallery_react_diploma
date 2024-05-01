@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Gallery_react_diploma/static/css/main.7af1926c.css",
-    "main.js": "/Gallery_react_diploma/static/js/main.76d8be33.js",
+    "main.css": "/Gallery_react_diploma/static/css/main.15e1ad68.css",
+    "main.js": "/Gallery_react_diploma/static/js/main.047feb95.js",
     "static/media/mt-2138-home-img-1.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-img-1.f66275f09be12ecd8b9a.jpg",
     "static/media/mt-2138-blank-img.png": "/Gallery_react_diploma/static/media/mt-2138-blank-img.66c7b176d96991a18f70.png",
     "index.html": "/Gallery_react_diploma/index.html",
-    "main.7af1926c.css.map": "/Gallery_react_diploma/static/css/main.7af1926c.css.map",
-    "main.76d8be33.js.map": "/Gallery_react_diploma/static/js/main.76d8be33.js.map"
+    "main.15e1ad68.css.map": "/Gallery_react_diploma/static/css/main.15e1ad68.css.map",
+    "main.047feb95.js.map": "/Gallery_react_diploma/static/js/main.047feb95.js.map"
   },
   "entrypoints": [
-    "static/css/main.7af1926c.css",
-    "static/js/main.76d8be33.js"
+    "static/css/main.15e1ad68.css",
+    "static/js/main.047feb95.js"
   ]
 }
