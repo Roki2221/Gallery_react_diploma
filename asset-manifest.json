@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/Gallery_react_diploma/static/css/main.bf82502c.css",
-    "main.js": "/Gallery_react_diploma/static/js/main.c13a588d.js",
+    "main.css": "/Gallery_react_diploma/static/css/main.58e34d17.css",
+    "main.js": "/Gallery_react_diploma/static/js/main.f1e2565a.js",
     "static/media/mt-2138-home-img-1.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-img-1.f66275f09be12ecd8b9a.jpg",
+    "static/media/mt-2138-home-gal-img-2-s.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-gal-img-2-s.f047f5ee0844382802de.jpg",
+    "static/media/mt-2138-home-gal-img-3-s.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-gal-img-3-s.e27ea36d49196efc5749.jpg",
+    "static/media/mt-2138-home-gal-img-4-s.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-gal-img-4-s.64033e2f518cffb07939.jpg",
     "static/media/mt-2138-exhibitions-img-5.jpg": "/Gallery_react_diploma/static/media/mt-2138-exhibitions-img-5.cd9b4fde9edf82484272.jpg",
+    "static/media/mt-2138-home-gal-img-5-s.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-gal-img-5-s.6f7035c4e95b2e8b115b.jpg",
+    "static/media/mt-2138-home-gal-img-1-s.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-gal-img-1-s.93dc4f1fba3d8d4171ed.jpg",
     "static/media/mt-2138-home-img-6s.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-img-6s.0c1678b66fe93fa7543b.jpg",
     "static/media/mt-2138-home-img-3s.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-img-3s.6f1a804f2bff233b371c.jpg",
     "static/media/mt-2138-blank-img.png": "/Gallery_react_diploma/static/media/mt-2138-blank-img.66c7b176d96991a18f70.png",
     "static/media/mt-2138-home-img-5s.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-img-5s.8d6ee4061af2ca30a23b.jpg",
     "static/media/mt-2138-home-img-4s.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-img-4s.60bbd1ff37d20222d4fc.jpg",
     "index.html": "/Gallery_react_diploma/index.html",
-    "main.bf82502c.css.map": "/Gallery_react_diploma/static/css/main.bf82502c.css.map",
-    "main.c13a588d.js.map": "/Gallery_react_diploma/static/js/main.c13a588d.js.map"
+    "main.58e34d17.css.map": "/Gallery_react_diploma/static/css/main.58e34d17.css.map",
+    "main.f1e2565a.js.map": "/Gallery_react_diploma/static/js/main.f1e2565a.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf82502c.css",
-    "static/js/main.c13a588d.js"
+    "static/css/main.58e34d17.css",
+    "static/js/main.f1e2565a.js"
   ]
 }
