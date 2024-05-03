@@ -1,0 +1,31 @@
+.blog_container {
+  background-color: #f7f7f7;
+}
+
+.blog_title {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 40px 0 20px;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.blog_text_title {
+  color: #000;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 2em;
+  padding: 10px 0;
+}
+.blog_text_title:hover {
+  color: #fee121;
+}
+
+.blog_text {
+  color: #5f5449;
+  padding-bottom: 20px;
+  line-height: 1.5em;
+}
+.blog_text:last-child {
+  padding-bottom: 50px;
+}

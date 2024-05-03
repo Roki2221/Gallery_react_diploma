@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import gallerPhoto from '../../img/mt-2138-exhibitions-img-5.jpg';
 function EventStats() {
   return (
-    <>
-      <div className={`${CSS.event_container} container`}>
+    <div className="container">
+      <div className={CSS.event_container}>
         <h2 className={CSS.title_eventStats}>Events '16 in Review</h2>
         <p className={CSS.text_eventStats}>
           The real reason as to why we do not pick and choose or in any other
@@ -24,7 +24,7 @@ function EventStats() {
           past events
         </Link>
       </div>
-      <div className={`${CSS.number_container} container`}>
+      <div className={CSS.number_container}>
         <span className={CSS.stats_number}>5586</span>
         <span className={CSS.stats_text}>Events a Year</span>
         <span>9999</span>
@@ -33,7 +33,7 @@ function EventStats() {
       <div>
         <img src={gallerPhoto} className={CSS.gal_photo} alt="exhibitions" />
       </div>
-    </>
+    </div>
   );
 }
 

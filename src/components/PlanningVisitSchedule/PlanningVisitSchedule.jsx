@@ -6,7 +6,7 @@ import CSS from './PlanningVisitSchedule.module.css';
 import { Link } from 'react-router-dom';
 function PlanningVisitSchedule() {
   return (
-    <div className={CSS.schedule_container}>
+    <div className={`container ${CSS.schedule_container}`}>
       <h2>PlanningVisitSchedule</h2>
       <Link className={CSS.artist_item} to="/events">
         <div className={CSS.artist_img_container}>

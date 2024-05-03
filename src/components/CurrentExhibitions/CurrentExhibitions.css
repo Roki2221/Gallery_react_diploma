@@ -27,7 +27,6 @@
 }
 
 .gallery img {
-  margin: 5px;
   cursor: pointer;
   transition: 0.5s;
 }
