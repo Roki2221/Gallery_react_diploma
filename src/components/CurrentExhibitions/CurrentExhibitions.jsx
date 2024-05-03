@@ -19,8 +19,8 @@ function CurrentExhibitions() {
   }, []);
 
   return (
-    <div>
-      <h2>Current Exhibitions</h2>
+    <div className="currgallery_containere">
+      <h2 className="currgallery_title">Current Exhibitions</h2>
 
       <div className="gallery">
         {images.map((image, index) => (
