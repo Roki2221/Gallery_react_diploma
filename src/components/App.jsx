@@ -7,7 +7,7 @@ import Contacts from '../pages/Contacts';
 import Events from '../pages/Events';
 import Home from '../pages/Home';
 import { Routes, Route } from 'react-router-dom';
-
+import Footer from './Footer/Footer';
 export const App = () => {
   return (
     <div>
@@ -21,6 +21,7 @@ export const App = () => {
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Contacts" element={<Contacts />} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 };

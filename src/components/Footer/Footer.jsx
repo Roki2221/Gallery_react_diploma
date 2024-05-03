@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CSS from './Footer.module.css';
 function Footer() {
   return (
-    <div>
+    <div className={`${CSS.footer_container} container`}>
       <div>
         <h2>
           Sign Up
