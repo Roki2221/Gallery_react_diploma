@@ -1,8 +1,9 @@
 .footer_container {
-  background-image: url('../../img/mt-2138-home-img-10.jpg');
   color: white;
 }
-
+.footer_signUp_container {
+  background-image: url('../../img/mt-2138-home-img-10.jpg');
+}
 .footer_text_container {
   padding: 30px 0;
   font-weight: bold;
@@ -74,8 +75,9 @@
 }
 /* //////////////////////////////////// */
 .social_links {
+  /* width: fit-content; */
+  padding: 0 40px;
   display: flex;
-  gap: 16px;
   justify-content: space-around;
   padding-bottom: 30px;
 }
@@ -83,6 +85,12 @@
 .social_links_item {
   width: 40px;
   height: 40px;
+}
+
+.social_icon {
+  fill: black;
+  display: block;
+  width: 20px;
 }
 
 .footer_soc {
@@ -111,4 +119,66 @@
   color: var(--white-text-color);
   margin-bottom: 16px;
   text-align: center;
+}
+
+.contacts_container {
+  padding: 40px 20px;
+  background-color: #f7f7f7;
+  color: black;
+}
+
+.footer_logo {
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 5px 20px;
+  background: linear-gradient(to right, #ffe10a 25%, #f7f7f7 25%);
+}
+.footer_logo_subtitle {
+  color: #5f5449;
+  font-size: 15px;
+}
+
+.footer_address_link {
+  display: flex;
+  gap: 40px;
+  padding-top: 30px;
+}
+.footer_address_link div {
+  width: 140px;
+}
+
+.address_icon {
+  fill: #ffe012;
+  width: 14px;
+  display: block;
+}
+.phone_link a {
+  color: black;
+}
+
+.physical_address {
+  color: #5f5449;
+}
+.footer_terms a,
+.footer_terms {
+  color: white;
+}
+.footer_terms {
+  padding: 10px;
+  background-color: #222832;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer_terms span {
+  padding: 0 10px;
+  font-size: 13px;
+}
+
+.terms_link {
+  border-left: 1px solid white;
 }

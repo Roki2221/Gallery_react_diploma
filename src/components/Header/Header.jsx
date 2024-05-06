@@ -1,25 +1,16 @@
 import React from 'react';
-import logo from '../../img/mt-2138-home-logo.png';
 import CSS from './Header.module.css';
 import Navbar from 'components/Navbar/Navbar';
 import { Link } from 'react-router-dom';
-// import About from '../../pages/About';
-// import Exhibitions from '../../pages/Exhibitions';
-// import Gallery from '../../pages/Gallery';
-// import Blog from '../../pages/Blog';
-// import Contacts from '../../pages/Contacts';
-// import Events from '../../pages/Events';
-// import Home from '../../pages/Home';
 
 function Header() {
   return (
     <header className={CSS.header}>
       {/* лого силка */}
-      <div className={CSS.logo}>
-        <Link to="/" style={{ textDecoration: 'none' }}>
-          <img src={logo} alt="exhibita" />
-        </Link>
-      </div>
+
+      <Link to="/" style={{ textDecoration: 'none' }}>
+        <h2 className={CSS.header_logo}>ExhibitA</h2>
+      </Link>
 
       {/* НАВІГАЦІЯ */}
       <Navbar></Navbar>
@@ -27,14 +18,12 @@ function Header() {
       {/* HERO */}
       <div className={`${CSS.hero} container`}>
         <h1 className={CSS.main_title}>
-          <br />
-          Welcome to the
-          <span className={CSS.header_title}>
-            <span className={CSS.header_title_bold}>
-              <br /> ExhibitA Art
-            </span>
-            <br /> Gallery
+          <span className={CSS.header_title_bold + ' ' + CSS.header_title}>
+            Welcome to the
           </span>
+          <br />
+          <span className={CSS.header_title_bold}>ExhibitA Art</span> <br />
+          <span className={CSS.header_title}>Gallery</span>
         </h1>
 
         <p className={CSS.hero_text}>
