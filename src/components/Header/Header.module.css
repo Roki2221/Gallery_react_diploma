@@ -24,8 +24,7 @@
   background-size: 38% 100%;
   padding: 25px 40px 15px;
 }
-.main_title {
-}
+
 .header_title {
   font-size: x-large;
 }
@@ -79,4 +78,17 @@
 /* Показати меню, коли кнопка натиснута */
 .nav-open {
   left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    background-size: cover;
+  }
+  .hero {
+    background-size: 10% 100%;
+    padding: 40px 60% 20px 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
 }

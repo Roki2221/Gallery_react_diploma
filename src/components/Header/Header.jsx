@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <header className={CSS.header}>
+    <header className={`${CSS.header} container`}>
       {/* лого силка */}
 
       <Link to="/" style={{ textDecoration: 'none' }}>
@@ -16,7 +16,7 @@ function Header() {
       <Navbar></Navbar>
 
       {/* HERO */}
-      <div className={`${CSS.hero} container`}>
+      <div className={CSS.hero}>
         <h1 className={CSS.main_title}>
           <span className={CSS.header_title_bold + ' ' + CSS.header_title}>
             Welcome to the
