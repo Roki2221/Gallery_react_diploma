@@ -26,7 +26,8 @@
 .subscribe_container {
   margin-bottom: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
 }
 
 .footer_input {
@@ -75,10 +76,9 @@
 }
 /* //////////////////////////////////// */
 .social_links {
-  padding: 0 40px;
+  padding: 30px 40px;
   display: flex;
   justify-content: space-around;
-  padding-bottom: 30px;
 }
 
 .social_links_item {
@@ -217,9 +217,9 @@
     right: 20px;
     top: 17px;
   }
-
-  .soc_subtitle span {
-    margin-bottom: 30px;
+  .social_links {
+    justify-content: center;
+    gap: 20px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -254,7 +254,6 @@
   }
 
   .soc_subtitle {
-    gap: 20px;
     font-size: 50px;
     letter-spacing: 0.02em;
   }

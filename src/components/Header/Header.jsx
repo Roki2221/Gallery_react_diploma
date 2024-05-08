@@ -18,11 +18,12 @@ function Header() {
       {/* HERO */}
       <div className={CSS.hero}>
         <h1 className={CSS.main_title}>
+          <span className={CSS.header_title_bold}>Welcome to the</span>
+          <br />
           <span className={CSS.header_title_bold + ' ' + CSS.header_title}>
-            Welcome to the
+            ExhibitA Art
           </span>
           <br />
-          <span className={CSS.header_title_bold}>ExhibitA Art</span> <br />
           <span className={CSS.header_title}>Gallery</span>
         </h1>
 

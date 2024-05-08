@@ -4,8 +4,20 @@ import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   const [menuOpen, SetMenuOpen] = useState(false);
+
+  const [fix, setFix] = useState(false);
+
+  function setFixed() {
+    if (window.scrollY >= 90) {
+      setFix(true);
+    } else {
+      setFix(false);
+    }
+  }
+
+  window.addEventListener('scroll', setFixed);
   return (
-    <nav className={CSS.nav_link}>
+    <nav className={`${CSS.nav_link} ${fix ? CSS.fixed : ''}`}>
       {/* НАВІГАЦІЯ */}
       <div
         className={CSS.mobile_menu_button}

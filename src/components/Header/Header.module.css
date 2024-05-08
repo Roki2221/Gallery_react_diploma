@@ -14,7 +14,7 @@
   width: fit-content;
   margin: 0 auto;
   padding: 5px 20px;
-  background: linear-gradient(to right, #ffe10a 25%, #f7f7f7 25%);
+  background: linear-gradient(to right, #ffe10a 25%, transparent 25%);
   margin-bottom: 10px;
 }
 
@@ -22,7 +22,7 @@
   background-image: url('../../img/mt-2138-blank-img.png');
   background-repeat: no-repeat;
   background-size: 38% 100%;
-  padding: 25px 40px 15px;
+  padding: 25px 0 20px 40px;
 }
 
 .header_title {
@@ -30,63 +30,31 @@
 }
 .header_title_bold {
   font-weight: bold;
-  font-size: 30px;
 }
 .hero_text {
   color: #474747;
-}
-
-.mobile-nav {
-  position: fixed;
-  top: 0;
-  left: -250px; /* Сховане меню за замовчуванням */
-  width: 250px;
-  height: 100%;
-  background: #333;
-  padding-top: 60px; /* Простір для заголовка */
-  transition: left 0.3s ease;
-}
-
-.toggle-btn {
-  position: absolute;
-  top: 20px;
-  left: 10px;
-  background: transparent;
-  border: none;
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.nav-menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.nav-menu li {
-  padding: 15px 0;
-  text-align: center;
-}
-
-.nav-menu li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-/* Показати меню, коли кнопка натиснута */
-.nav-open {
-  left: 0;
 }
 
 @media screen and (min-width: 768px) {
   .header {
     background-size: cover;
   }
+  .header_logo {
+    margin-bottom: 30px;
+  }
   .hero {
     background-size: 10% 100%;
     padding: 40px 60% 20px 40px;
+  }
+  .header_title_bold {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .header_title {
+    font-size: 40px;
+  }
+  .hero_text {
+    line-height: 1.5em;
   }
 }
 
