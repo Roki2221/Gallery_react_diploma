@@ -90,8 +90,4 @@
     justify-content: center;
     gap: 35px;
   }
-
-  .nav_link li {
-    background-color: transparent;
-  }
 }

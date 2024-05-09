@@ -1,3 +1,8 @@
+.eventStats_container {
+  display: grid;
+  grid-template-rows: 1fr max-content 1fr;
+}
+
 .event_container {
   padding: 40px 10px;
   background-color: #f9f9f9;
@@ -10,6 +15,8 @@
 }
 
 .text_eventStats {
+  color: #5a5e63;
+
   margin: 20px 0;
 }
 
@@ -30,7 +37,7 @@
 }
 
 .number_container {
-  height: 300px;
+  padding: 30px;
   background-color: #222832;
   color: white;
   display: flex;
@@ -39,16 +46,85 @@
   justify-content: center;
   gap: 20px;
   font-size: 27px;
-
   margin-bottom: 30px;
+}
+.number_container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 .stats_text {
   font-size: 17px;
   border-top: 2px solid white;
   padding-top: 20px;
+  font-weight: bold;
 }
 
 .gal_photo {
+  background-image: url('../../img/mt-2138-exhibitions-img-5.jpg');
   width: 100%;
   margin-bottom: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .eventStats_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: max-content;
+    grid-column-gap: 40px; /* проміжок між блоками */
+    margin-bottom: 60px;
+  }
+
+  .number_container {
+    padding: 40px 10px;
+    flex-direction: row;
+    grid-area: 2/1/2/2;
+    margin: 0;
+  }
+  .gal_photo {
+    background-size: cover;
+    grid-area: 1/2 / 3 / 3;
+    margin: 0;
+  }
+
+  .title_eventStats {
+    font-size: 35px;
+  }
+  .text_eventStats {
+    line-height: 1.5em;
+  }
+  .stats_number {
+    font-size: 33px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .eventStats_container {
+    margin-bottom: 100px;
+  }
+  .event_container {
+    padding: 100px;
+  }
+
+  .title_eventStats {
+    font-size: 45px;
+  }
+  .text_eventStats {
+    font-size: 20px;
+  }
+
+  .button_eventStats {
+    padding: 20px 40px;
+  }
+  .stats_text {
+    font-size: 28px;
+  }
+  .stats_number {
+    font-size: 40px;
+    font-weight: bold;
+  }
 }
