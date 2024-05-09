@@ -13,7 +13,9 @@
   gap: 30px;
 }
 
-.schedule_container h2 {
+.schedule_title {
+  width: fit-content;
+  margin: 0 auto;
   font-weight: bold;
   font-size: 27px;
   padding-top: 40px;
@@ -82,4 +84,54 @@
 .button_eventStats:hover {
   background-color: #000000;
   color: #ededed;
+}
+
+@media screen and (min-width: 768px) {
+  .schedule_container {
+    flex-direction: row;
+  }
+  .schedule_title {
+    font-size: 30px;
+    padding: 70px 0 40px;
+  }
+  .button_eventStats {
+    margin: 30px auto 50px;
+  }
+
+  .gallery_item_text h3 {
+    font-size: 20px;
+  }
+
+  .gallery_item_text p {
+    font-size: 14px;
+  }
+  .gallery_item_text {
+    padding: 20px 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .schedule_title {
+    font-size: 50px;
+    padding: 70px 0 40px;
+  }
+  .button_eventStats {
+    margin: 30px auto 50px;
+  }
+
+  .gallery_item_text h3 {
+    font-size: 30px;
+  }
+
+  .gallery_item_text p {
+    font-size: 20px;
+  }
+  .gallery_item_text {
+    padding: 20px;
+  }
+  .button_eventStats {
+    font-size: 20px;
+    padding: 20px 40px;
+    margin-bottom: 50px;
+  }
 }
