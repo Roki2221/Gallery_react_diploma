@@ -62,10 +62,13 @@
     margin-bottom: 198px;
   }
   .fixed ul {
-    padding: 0 32px;
+    padding: 13px 32px;
     position: fixed;
     top: 0;
+    z-index: 999;
     background-color: #ebebeb;
+    justify-content: center;
+    gap: 28px;
   }
 
   .nav_link li {
@@ -76,7 +79,19 @@
     color: rgb(247, 212, 13);
     background-color: transparent;
   }
+  .nav_link .open {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .nav_link ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+  }
+
+  .nav_link li {
+    background-color: transparent;
+  }
 }
