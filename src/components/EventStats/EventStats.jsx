@@ -25,7 +25,7 @@ function EventStats() {
       </div>
       <div className={CSS.number_container}>
         <div>
-          <span className={CSS.stats_number}>5586</span>
+          <span className={CSS.stats_number}>124</span>
           <span className={CSS.stats_text}>Events a Year</span>
         </div>
         <div>
