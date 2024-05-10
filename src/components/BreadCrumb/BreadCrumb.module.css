@@ -5,7 +5,9 @@
   list-style: none;
   border-radius: 4px;
 }
-
+.breadcrumb_item a {
+  color: black;
+}
 .breadcrumb_item + .breadcrumb_item::before {
   content: '│';
   margin: 0 8px;
