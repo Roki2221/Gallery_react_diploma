@@ -1,4 +1,4 @@
-.header {
+.current_header {
   background-image: url('../../img/mt-2138-home-img-1.jpg');
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -6,6 +6,17 @@
   margin-bottom: 30px;
   padding: 10px 0 40px;
 }
+.other_page_header {
+  margin-bottom: 20px;
+  padding: 20px 0;
+  background-image: none;
+  background-color: #f7f7f7;
+}
+
+.other_page_header .hero {
+  display: none;
+}
+
 .header_logo {
   color: #000;
   font-size: 35px;
@@ -43,6 +54,7 @@
     margin-bottom: 30px;
   }
   .hero {
+    margin-top: 130px;
     background-size: 10% 100%;
     padding: 40px 60% 20px 40px;
   }

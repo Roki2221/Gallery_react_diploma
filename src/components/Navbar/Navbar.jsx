@@ -8,7 +8,7 @@ function Navbar() {
   const [fix, setFix] = useState(false);
 
   function setFixed() {
-    if (window.scrollY >= 90) {
+    if (window.scrollY >= 110) {
       setFix(true);
     } else {
       setFix(false);
@@ -17,7 +17,7 @@ function Navbar() {
 
   window.addEventListener('scroll', setFixed);
   return (
-    <nav className={`${CSS.nav_link} ${fix ? CSS.fixed : ''}`}>
+    <nav className={`${CSS.nav_link} `}>
       {/* НАВІГАЦІЯ */}
       <div
         className={CSS.mobile_menu_button}
@@ -29,7 +29,11 @@ function Navbar() {
         <span></span>
         <span></span>
       </div>
-      <ul className={menuOpen ? CSS.open : ''}>
+      <ul
+        className={`${menuOpen ? CSS.open : ''} ${fix ? CSS.fixed : ''} ${
+          CSS.menu_list
+        }`}
+      >
         <li
           onClick={() => {
             SetMenuOpen(!menuOpen);

@@ -17,7 +17,7 @@
   border-radius: 0.2rem;
 }
 
-.nav_link ul {
+.menu_list {
   display: none;
   position: absolute;
   left: 0;
@@ -48,20 +48,17 @@
   }
   .nav_link {
     display: block;
-    margin-bottom: 130px;
+    height: 40px;
   }
-  .nav_link ul {
+
+  .menu_list {
     display: flex;
     justify-content: space-around;
-
     border: none;
     position: static;
     width: 100%;
   }
   .fixed {
-    margin-bottom: 198px;
-  }
-  .fixed ul {
     padding: 13px 32px;
     position: fixed;
     top: 0;
@@ -69,6 +66,7 @@
     background-color: #ebebeb;
     justify-content: center;
     gap: 28px;
+    border-bottom: 1px solid rgb(247, 212, 13);
   }
 
   .nav_link li {
@@ -85,7 +83,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .nav_link ul {
+  .menu_list {
     display: flex;
     justify-content: center;
     gap: 35px;

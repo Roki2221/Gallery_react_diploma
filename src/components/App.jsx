@@ -6,12 +6,18 @@ import Blog from '../pages/Blog';
 import Contacts from '../pages/Contacts';
 import Events from '../pages/Events';
 import Home from '../pages/Home';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Footer from './Footer/Footer';
+import BreadCrumb from './BreadCrumb/BreadCrumb';
+
 export const App = () => {
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+
   return (
     <div>
-      <Header></Header>
+      <Header isHomePage={isHomePage}></Header>
+      <BreadCrumb />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />

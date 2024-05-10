@@ -3,9 +3,15 @@ import CSS from './Header.module.css';
 import Navbar from 'components/Navbar/Navbar';
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Header({ isHomePage }) {
+  const headerClass = isHomePage;
+
   return (
-    <header className={`${CSS.header} container`}>
+    <header
+      className={`container ${
+        headerClass ? CSS.current_header : CSS.other_page_header
+      }`}
+    >
       {/* лого силка */}
 
       <Link to="/" style={{ textDecoration: 'none' }}>
