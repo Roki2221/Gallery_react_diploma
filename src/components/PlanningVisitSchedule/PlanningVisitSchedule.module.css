@@ -18,7 +18,7 @@
   margin: 0 auto;
   font-weight: bold;
   font-size: 27px;
-  padding-top: 40px;
+  padding: 40px 0 20px;
 }
 
 .artist_item:hover h3 {
@@ -70,7 +70,7 @@
 }
 
 .button_eventStats {
-  margin-bottom: 30px;
+  margin: 30px auto;
   background-color: #ededed;
   padding: 20px;
   display: block;
