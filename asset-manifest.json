@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Gallery_react_diploma/static/css/main.e6f551a0.css",
+    "main.css": "/Gallery_react_diploma/static/css/main.c0628848.css",
     "main.js": "/Gallery_react_diploma/static/js/main.2a390284.js",
     "static/media/mt-2138-home-img-1.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-img-1.f66275f09be12ecd8b9a.jpg",
     "static/media/mt-2138-about-img-1.jpg": "/Gallery_react_diploma/static/media/mt-2138-about-img-1.a565e7eba5b6fc92f7ac.jpg",
@@ -29,11 +29,11 @@
     "static/media/mt-2138-home-img-4s.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-img-4s.60bbd1ff37d20222d4fc.jpg",
     "static/media/mt-2138-home-img-10.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-img-10.44bacbd83e3439f73942.jpg",
     "index.html": "/Gallery_react_diploma/index.html",
-    "main.e6f551a0.css.map": "/Gallery_react_diploma/static/css/main.e6f551a0.css.map",
+    "main.c0628848.css.map": "/Gallery_react_diploma/static/css/main.c0628848.css.map",
     "main.2a390284.js.map": "/Gallery_react_diploma/static/js/main.2a390284.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6f551a0.css",
+    "static/css/main.c0628848.css",
     "static/js/main.2a390284.js"
   ]
 }
