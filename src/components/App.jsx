@@ -9,6 +9,7 @@ import Home from '../pages/Home';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Footer from './Footer/Footer';
 import BreadCrumb from './BreadCrumb/BreadCrumb';
+import ScrollToTopButton from './ScrollToTopButton/ScrollToTopButton';
 
 export const App = () => {
   const location = useLocation();
@@ -27,6 +28,7 @@ export const App = () => {
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Contacts" element={<Contacts />} />
       </Routes>
+      <ScrollToTopButton />
       <Footer></Footer>
     </div>
   );

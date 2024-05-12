@@ -73,6 +73,11 @@
     background-color: transparent;
   }
 
+  .nav_link li:hover a {
+    color: rgb(247, 212, 13);
+    border-bottom: 2px solid rgb(247, 212, 13);
+  }
+
   .nav_link .active {
     color: rgb(247, 212, 13);
     background-color: transparent;

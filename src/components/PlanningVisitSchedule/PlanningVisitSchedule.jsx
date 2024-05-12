@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function PlanningVisitSchedule() {
   return (
     <div className="container">
-      <h2 className={CSS.schedule_title}>PlanningVisitSchedule</h2>
+      <h2 className={CSS.schedule_title}>Planning Your Visit</h2>
       <div className={CSS.schedule_container}>
         <Link className={CSS.artist_item} to="/events">
           <div className={CSS.artist_img_container}>
