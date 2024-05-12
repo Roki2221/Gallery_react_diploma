@@ -30,9 +30,9 @@ function Navbar() {
         <span></span>
       </div>
       <ul
-        className={`${menuOpen ? CSS.open : ''} ${fix ? CSS.fixed : ''} ${
-          CSS.menu_list
-        }`}
+        className={`${window.innerWidth < 768 && menuOpen ? CSS.open : ''} ${
+          fix ? CSS.fixed : ''
+        } ${CSS.menu_list}`}
       >
         <li
           onClick={() => {
