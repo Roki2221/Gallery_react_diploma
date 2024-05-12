@@ -19,8 +19,9 @@
   color: yellow;
 }
 .exhibitions_img {
-  width: 280px;
-  height: 280px;
+  transition: 0.3s ease;
+  min-width: 280px;
+  min-height: 280px;
   object-fit: cover;
   overflow: hidden;
 }
