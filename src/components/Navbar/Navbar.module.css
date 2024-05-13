@@ -26,6 +26,7 @@
 }
 .nav_link .open {
   display: block;
+  z-index: 999;
 }
 
 .nav_link li {

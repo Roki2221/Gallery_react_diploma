@@ -7,7 +7,7 @@ function Searchbar({ onSubmit }) {
     // e.currentTarget.elements.name.value = '';
   };
   return (
-    <header>
+    <>
       <form className={css.SearchForm} onSubmit={handleSubmit}>
         <div className={css.Input_container}>
           <button
@@ -25,7 +25,7 @@ function Searchbar({ onSubmit }) {
           />
         </div>
       </form>
-    </header>
+    </>
   );
 }
 

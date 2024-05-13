@@ -5,6 +5,7 @@
   background-color: #f7f7f7;
   margin-bottom: 40px;
   width: 100%;
+  z-index: 20;
 }
 .Input_container {
   display: flex;
