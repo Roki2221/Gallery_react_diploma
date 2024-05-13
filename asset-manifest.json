@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Gallery_react_diploma/static/css/main.97741c38.css",
-    "main.js": "/Gallery_react_diploma/static/js/main.f2d7923b.js",
+    "main.css": "/Gallery_react_diploma/static/css/main.b7be5371.css",
+    "main.js": "/Gallery_react_diploma/static/js/main.d5b498a0.js",
     "static/media/mt-2138-exhibitions-img-6.jpg": "/Gallery_react_diploma/static/media/mt-2138-exhibitions-img-6.20c58d3644e07db13bf9.jpg",
     "static/media/mt-2138-home-img-1.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-img-1.f66275f09be12ecd8b9a.jpg",
     "static/media/mt-2138-about-img-1.jpg": "/Gallery_react_diploma/static/media/mt-2138-about-img-1.a565e7eba5b6fc92f7ac.jpg",
@@ -35,11 +35,11 @@
     "static/media/mt-2138-home-img-4s.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-img-4s.60bbd1ff37d20222d4fc.jpg",
     "static/media/mt-2138-home-img-10.jpg": "/Gallery_react_diploma/static/media/mt-2138-home-img-10.44bacbd83e3439f73942.jpg",
     "index.html": "/Gallery_react_diploma/index.html",
-    "main.97741c38.css.map": "/Gallery_react_diploma/static/css/main.97741c38.css.map",
-    "main.f2d7923b.js.map": "/Gallery_react_diploma/static/js/main.f2d7923b.js.map"
+    "main.b7be5371.css.map": "/Gallery_react_diploma/static/css/main.b7be5371.css.map",
+    "main.d5b498a0.js.map": "/Gallery_react_diploma/static/js/main.d5b498a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.97741c38.css",
-    "static/js/main.f2d7923b.js"
+    "static/css/main.b7be5371.css",
+    "static/js/main.d5b498a0.js"
   ]
 }
