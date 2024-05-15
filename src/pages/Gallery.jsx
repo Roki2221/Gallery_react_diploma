@@ -79,7 +79,18 @@ function Gallery() {
   return (
     <>
       <Searchbar onSubmit={handleSubmit}></Searchbar>
-      {error && <h2 style={{ marginTop: '60px' }}>{error}</h2>}
+      {error && (
+        <h2
+          style={{
+            margin: '60px',
+            textAlign: 'center',
+            fontWeight: 'bold',
+            fontSize: 25,
+          }}
+        >
+          {error}
+        </h2>
+      )}
       {photosData.length > 0 && !isLoading && (
         <ImageGallery photos={photosData} modalOpen={modalOpen}></ImageGallery>
       )}
