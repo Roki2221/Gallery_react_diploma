@@ -94,7 +94,7 @@ function Navbar() {
             gallery
           </NavLink>
         </li>
-        <li
+        {/* <li
           onClick={() => {
             SetMenuOpen(!menuOpen);
           }}
@@ -105,7 +105,7 @@ function Navbar() {
           >
             blog
           </NavLink>
-        </li>
+        </li> */}
         <li
           onClick={() => {
             SetMenuOpen(!menuOpen);

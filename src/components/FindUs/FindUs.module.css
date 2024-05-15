@@ -1,0 +1,26 @@
+.contacts_container {
+  padding-bottom: 40px;
+  padding-top: 40px;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #f7f7f7;
+}
+.contacts_title {
+  font-weight: bold;
+
+  font-size: 27px;
+}
+.contacts_text {
+  font-weight: bold;
+}
+.contacts_address {
+  font-size: 14px;
+  color: #696161;
+}
+.contacts_map {
+  width: 100%;
+}

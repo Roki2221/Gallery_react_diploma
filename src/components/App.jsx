@@ -2,7 +2,7 @@ import Header from './Header/Header';
 import About from '../pages/About';
 import Exhibitions from '../pages/Exhibitions';
 import Gallery from '../pages/Gallery';
-import Blog from '../pages/Blog';
+// import Blog from '../pages/Blog';
 import Contacts from '../pages/Contacts';
 import Events from '../pages/Events';
 import Home from '../pages/Home';
@@ -25,7 +25,6 @@ export const App = () => {
         <Route path="/Exhibitions" element={<Exhibitions />} />
         <Route path="/Events" element={<Events />} />
         <Route path="/Gallery" element={<Gallery />} />
-        <Route path="/Blog" element={<Blog />} />
         <Route path="/Contacts" element={<Contacts />} />
       </Routes>
       <ScrollToTopButton />
